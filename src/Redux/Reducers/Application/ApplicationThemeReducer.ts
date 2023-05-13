@@ -3,7 +3,7 @@ import { SetApplicationTheme } from "../../ActionTypes";
 import { Action } from "../../Types";
 
 interface IDefaultState {
-  theme: string;
+  theme: ThemeType;
 }
 
 let defaultState: IDefaultState = {
@@ -12,7 +12,7 @@ let defaultState: IDefaultState = {
 
 export const ApplicationThemeReducer = (
   state: IDefaultState = defaultState,
-  action: Action<string>
+  action: Action<ThemeType>
 ) => {
   switch (action.type) {
     case SetApplicationTheme:
