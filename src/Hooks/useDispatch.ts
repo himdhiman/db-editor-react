@@ -1,3 +1,3 @@
 import { store } from "../Redux/Store";
 
-export const useDispatch = () => store.dispatch;
+export const dispatch = store.dispatch;

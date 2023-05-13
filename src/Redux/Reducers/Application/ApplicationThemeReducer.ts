@@ -1,3 +1,4 @@
+import { ThemeType } from "../../../Types/Application/types";
 import { SetApplicationTheme } from "../../ActionTypes";
 import { Action } from "../../Types";
 
